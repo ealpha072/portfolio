@@ -1,3 +1,7 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html{
     height:100%
 }
@@ -11,38 +15,50 @@ body{
 .app-container{
     margin-bottom: 50px;
 }
-header{
-    background-color: rgb(59, 59, 221);
-}
-
-nav{
+/* ****************** 
+        HEADER 
+**********************/
+.inline-header{
     display: flex;
     flex-direction: row;
-    width:100%;
-    padding:10px;
-    background-color: inherit;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;   
 }
-
-span{
-    margin-left:6px;
+.header-div{
+    margin:30px 50px 30px;
 }
-
-.img{
-    max-width: 100px;
-    height:auto;
-    border-radius:55%
-}
-
-.anchor{
-    color: white;
+.header-a{
     text-decoration: none;
-    font-weight:400;
-}
-.anchor:hover{
     color: black;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.header-a:hover{
+    color:rgb(37, 12, 161);
+}
+
+.header-btn{
+    color: #7510F7;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    border:2px #7510F7 solid;
+    border-radius: 24px;
+    cursor:pointer;
+    padding:8px 12px 8px 12px;
+}
+
+.header-btn:hover{
+    background-color: #7510F7;;
+    color:white;
+}
+/* topstyles */
+.tp-h{
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-larger;
+    color:rgb(11, 3, 49);
 }
 
 /* //margin padding guuters */
@@ -72,6 +88,7 @@ span{
     background-color: rgb(24, 81, 238);
     color:white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
@@ -80,68 +97,48 @@ span{
 /* //about styles */
 .about-p{
     padding:10px 100px 10px 100px;
-    margin:auto 50px;
-    letter-spacing: 4px;
-    line-height: 2.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:100px;
+    letter-spacing: 3px;
+    line-height: 2rem;
     font-size: 25px;
     overflow-wrap: break-word;
 }
-
-.form-control{
-    width: 350px;
-    font-size: 16px;
-    height:40px;
-    border-radius: 10px ;
-    border:none;
-    text-indent: 15px;
-}
-
-.form-control::-webkit-input-placeholder{
-    font-size: 16px;
-    margin:auto;
-    padding-top: 2px;
-}
-
-.btn{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-    cursor: pointer;
-    width:fit-content;
-    height: 40px;
-    border:1px solid rgb(10, 31, 148);
-    border-radius: 5px;
-    background-color: rgb(10, 31, 148);
-}
-
-.btn:hover{
-    color: white;
-    background-color: rgb(7, 7, 78);
-    box-shadow: 0px 2px 2px rgba(4, 3, 49, 0.25)
-}
-
-.form-control:focus{
-    outline:none;
-    border: none;
+.abt-img{
+    margin-top:20px;
+    margin-bottom: 50px;
 }
 
 /* //languages styling// */
 .lang{
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(172, 166, 166, 0.87);
-    margin:24 70px;
+    margin:48px 70px;
     align-items: stretch;
+    cursor: pointer;
 }
 
 .lang-card{
     border-right:1px solid rgb(211, 208, 208);
 }
+
+.lang-card-last{
+    border-right:none;
+}
+
+.lang-card:hover, .lang-card-last:hover{
+    transform: scale(0.95);
+}
+
 .lang-p{
     padding: 10px 10px 10px 10px;
     margin-right:10px;
     margin-left:10px;
     text-align: center;
+    margin-bottom: 5px;
 }
+
 .card-title{
     color:black;
     font-size: larger;
@@ -150,10 +147,187 @@ span{
 .card-head{
     color:rgb(43, 43, 207);
     padding-top:8px;
+    margin:5px 5px;
 }
 .card-list{
     list-style-type: none;
+    margin-top: 5px;
+}
+
+/* //recent works */
+
+.rw-head{
+    color:#c9c5d3;
+    font-weight: 700;
 }
 
 
+/* //PROJECT STYLES */
+.prj-a{
+    text-decoration: none;
+    color: #e310cb;
+    font-weight:700;
+}
+.prj-a:hover{
+    color:deeppink;
+}
 
+.prj-mt{
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.rw{
+    background-color: #0d314b
+}
+
+.prj{
+    display: flex;
+    flex-direction: row;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.prj-img-holder{
+    border-radius: 10px;
+}
+
+.prj-img{
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prj-details{
+    align-self: center;
+    border-radius: 10px;
+    text-align: center;
+    height: max-content;
+    color:rgb(26, 201, 201);
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+.prj-p{
+    padding: 5px 20px 5px 20px;
+    margin:0px 0px 10px 0px;
+    font-size: larger;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+.prj-h{
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+/*******************
+    PROJECT TWO 
+ ********************/
+.prj-2{
+    flex-direction: row-reverse;
+}
+
+.prj-img-2{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prj-img-2:hover, .prj-img:hover{
+    transform: scale(1.01);
+}
+
+.prj-details-2{
+    align-self: center;
+    text-align: start;
+    word-wrap: break-word;
+    color: rgb(26, 201, 201);
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+.prj-h-2{
+    margin-bottom: 4px;
+    padding-left:20px;
+    text-transform: uppercase;
+}
+
+.prj-details-3{
+    align-self:center;
+    text-align: end;
+    word-wrap: break-word;
+    color:rgb(26, 221, 235);
+    font-family:monospace;
+    font-size:1.2rem
+}
+
+.prj-h3{
+    margin-bottom: 4px;
+    padding-right:20px;
+}
+
+/*******************************
+ START A PROJECT 
+ *******************************/
+.start-project{
+    padding:20px 150px 20px 150px;
+    word-wrap: break-word;
+    border-bottom: 0.5px rgb(13, 142, 228) solid;}
+
+.start-project-p{
+    text-align: center;
+    padding: 50px 150px 50px 150px; 
+    color: bisque;
+    font-family: monospace;
+    font-weight: 300;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    font-size:1.5rem
+}
+.start-project-a{
+    border:2px solid #7510F7;
+    border-radius: 24px;
+    padding:8px 12px 8px 12px;
+    text-decoration: none;
+    font-size:1.5rem;
+    color: wheat;
+    background-color: inherit;
+}
+.start-project-a:hover{
+    background-color: #7510F7;
+    color:white
+}
+
+/* ******************************
+        FOOTER
+*********************************/
+footer{
+    background-color: rgb(0, 30, 60);
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+    transform: scale(1.02);
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ul li{
+    margin:5px 5px;
+    padding:30px;
+    font-size: 2.5rem;
+}
+
+footer h2{
+    font-size: 2rem;
+    color:whitesmoke;
+    padding-top: 24px;
+    font-family: monospace;
+}

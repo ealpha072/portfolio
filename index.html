@@ -4,40 +4,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="app.css">
         <title>Pure Css</title>
     </head>
     <body>
         <div class="app-container">
-            <header class="inline">
-                <nav>
-                    <div class="logo inline">
-                        <a href="" class="inline anchor">
-                            <img src="images/images.jfif" alt="company-logo" class="img">
-                            <span>ALPHA COMPANY</span>
-                        </a>
-                    </div>
-                    <div class="search-element">
-                        <form action="" class="form">
-                            <div class="input-group">
-                                <input type="text" name="" id="" class="form-control" placeholder="Search for anything here">
-                                <button class="btn" type="button">SEARCH</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="other-action inline">
-                        <a href="" class="g-2 anchor">
-                            <h4>ealpha072@gmail.com</h4>
-                        </a>
-                    </div>
-                </nav>
+            <header class="inline-header">
+                <div class="header-div">
+                    <a href="http://" target="_blank" class="header-a">Email me</a>
+                </div>
+                <div class=" header-div">
+                   <a href="" target="" rel="" class="header-btn">Say Hello</a>
+                </div>
             </header>
 
-            <main>
+            <main class="mt">
                 <div class="d-block avatar-hero-img">
-                   <h1>Full stack Webdeveloper, Data Analyst, Machine Learining Enthusiast</h1>
-                   <p>I write beautifull software in beautifull way, beutifully</p>
-                   <div class="avatar">
+                   <h1 class="tp-h">Full stack Web developer, Data Analyst, Machine Learining Enthusiast</h1>
+                   <p>I write beautifull software in a beautifull way, beautifully</p>
+                   <div class="avatar abt-img">
                        <img src="images/avatar.svg" alt="Avatar">
                    </div>
                    <div class="extra-image"><img src="images/hero.svg" alt=""></div>
@@ -49,9 +35,8 @@
                         <p class="about-p">
                             My name is Alpha Emmanuel, a self-taught programmer. I started programming in
                             2019 with my first language being Javascript. From that, i learnt HTML and CSS an 
-                            became a front-end web developer. Through the years, i learnt PHP 
-                            fullstack developer stack including PHP, SQL and XAMMP. From this, i branded
-                            myself a fullstack developer. 
+                            became a front-end web developer. Through the years, i have learnt PHP 
+                            fullstack developement technologies PHP, SQL and XAMMP...
     
                         </p>
                     </div>
@@ -64,11 +49,11 @@
                         </div>
                         <h3 class="card-title">Web developer- FrontEnd</h3>
                         <p class="lang-p">I like to code the frotn end with libraries and templates</p>
-                        <h3 class='card-head'>Languages i speak</h3>
+                        <h3 class='card-head'>Languages i speak:</h3>
                         <p class="lang-p">
                             Javascript, HTML, CSS
                         </p>
-                        <h4 class="card-head">Tools i use</h4>
+                        <h4 class="card-head">Tools i use:</h4>
                         <ul class="card-list">
                             <li>React</li>
                             <li>Bootstrap</li>
@@ -85,11 +70,11 @@
                         <p class="lang-p">I love data, digging into 
                             data to get meaning from it
                         </p>
-                        <h3 class='card-head'>Technologies i use</h3>
+                        <h3 class='card-head'>Technologies i use:</h3>
                         <p class="lang-p">
                             Python, SQL, Excell
                         </p>
-                        <h4 class="card-head">Libraries i use</h4>
+                        <h4 class="card-head">Libraries i use:</h4>
                         <ul class="card-list">
                             <li>Pandas</li>
                             <li>Numpy</li>
@@ -97,7 +82,7 @@
                         </ul>
                     </div>
 
-                    <div class="data-analyst d-block lang-card">
+                    <div class="data-analyst d-block lang-card-last">
                         <div class="dev-svg mt">
                             <img src="images/mentor.svg" alt="Data Analysis">
                         </div>
@@ -123,7 +108,91 @@
 
                 </div>
 
+                <div class="rw d-block mt">
+                    <h1 class="rw-head"><strong>My Recent Projects</strong></h1>
+                    <div class="projects">
+
+                        <div class="prj prj-mt">
+                            <div class="prj-img-holder">
+                                <img src="images/projects/school_sytem.png" alt="" class="prj-img">
+                            </div>
+                            <div class="prj-details d-block">
+                                <div>
+                                    <h4 class="prj-h">School Management System</h4>
+                                    <p class="prj-p">
+                                        This School management project was developed using the PHP
+                                        fullstack tools among them; PHP, DB Browser(SQLite).
+                                        This is a desktop application compiled used phpDesktop and scripts
+                                        generated using the innoSetup scripts. Find it on 
+                                        <a href="http://" target="_blank" rel="noopener noreferrer" class="prj-a"> Github.</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="prj prj-2 prj-mt">
+                            <div class="prj-img-holder">
+                                <img src="images/projects/chat.png" alt="" class="prj-img-2">
+                            </div>
+                            <div class="prj-details-2 d-block">
+                                <div>
+                                    <h4 class="prj-h-2">Chat Application</h4>
+                                    <p class="prj-p">
+                                        This is a Chat Application coded using the php fullstack
+                                        technologies. Users can login, register, send and receive
+                                        messages in realtime, see who is online. Thinking of adding more
+                                        functionalities...
+                                        Check out the project <a href="" target="_blank" class="prj-a">here.</a>
+                                    </p>
+                                    <h5 class="prj-h-2">Technologies used: </h5>
+                                    <p class="prj-p"><small>PHP, Bootstrap, PHPMyadmin, XAMMP</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="prj prj-mt">
+                            <div class="prj-img-holder">
+                                <img src="images/projects/data.png" alt="" class="prj-img">
+                            </div>
+                            <div class="prj-details-3 d-block">
+                                <div>
+                                    <h4 class="prj-h3">Cognitive Classes</h4>
+                                    <h5 class="prj-h3">Automobilde Data Set</h5>
+                                    <p class="prj-p">
+                                        This is an Analysis of the Automobile Dataset from the Cognitive
+                                        classes. In this, i analyse the data using techniques like wrangling
+                                        binning, standardization and normalization.
+                                        Check it out <a href="http://" target="_blank" class="prj-a">here.</a>
+                                    </p>
+                                    <h5 class="prj-h3">Technologies used:</h5>
+                                    <p class="prj-h3">Jupyter Notebooks, Pandas, Numpy, Matplotlib</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </main>
+
+            <footer>
+               <div class="start-project d-block">
+                    <p class="start-project-p">
+                        Want to work on a project together, or want help with a continuing 
+                        project? Or maybe you just want to get coffee, or talk about 
+                        web developement, data analysis and anything tech related. Hit me up.
+                    </p>
+                    <a href="http://" target="" class="start-project-a">Let's do this</a>
+               </div>
+               <div class="socials">
+                   <h2>My social links: Reach me here</h2>
+                   <ul>
+                       <li><a href="https://github.com/ealpha072" target="_blank" class="fa fa-github"></a></li>
+                       <li><a href="" target="_blank" class="fa fa-instagram"></a></li>
+                       <li><a href="" target="_blank" class="fa fa-envelope"></a></li>
+                       <li><a href="" target="_blank" class="fa fa-twitter"></a></li>
+                   </ul>
+               </div>
+            </footer>
         </div>
     </body>
 </html>
