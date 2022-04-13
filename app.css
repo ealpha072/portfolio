@@ -336,13 +336,37 @@ footer h2{
         padding:0;
         box-sizing: border-box;
     }
-    body{
-        width:100vw
+    .d-block{
+        text-align: center;
+        margin:5px 5px;
     }
-    /*****************
-        HEADER 
-    ******************/
-    header{
-        display: none;
+    .inline{
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .inline-header{
+        justify-content: space-between;
+    }
+
+    .header-div{
+        margin:25px 5px;
+    }
+
+    /* ABOUT STYLES */
+    .about-p{
+        margin:10px;
+        font-size: 18px;
+        line-height: 1.2rem;
+        letter-spacing: normal;
+        padding: 12px;
+    }
+
+    /* LANGUAGES */
+    .lang{
+        margin: 5px;
+        margin-bottom:20px;
+        box-shadow: none;
+        align-items: unset;
     }
 }
