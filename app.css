@@ -2,19 +2,16 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-html{
-    height:100%
-}
+
 
 body{
     font-family: Roboto;
     margin:0;
     padding:0;
-    min-height:100%;
+    min-height:100vh;
 }
-.app-container{
-    margin-bottom: 50px;
-}
+
+
 /* ****************** 
         HEADER 
 **********************/
@@ -330,4 +327,22 @@ footer h2{
     color:whitesmoke;
     padding-top: 24px;
     font-family: monospace;
+}
+
+
+@media only screen and (max-device-width:480px ) and (min-device-width:320px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        width:100vw
+    }
+    /*****************
+        HEADER 
+    ******************/
+    header{
+        display: none;
+    }
 }
