@@ -6,9 +6,11 @@
     padding:0;
     box-sizing:border-box
 }
+
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 header{
     display:flex;
     justify-content:space-around;
@@ -28,6 +30,10 @@ header a{
     font-family: Montserrat;
 }
 
+.header-a:hover{
+    color:rgb(37, 12, 161);
+}
+
 .header-btn{
     color: #7510F7;
     background-color: white;
@@ -35,6 +41,10 @@ header a{
     border-radius: 24px;
     padding:10px 12px;
     font-weight:800;
+}
+.header-btn:hover{
+    background-color: #7510F7;;
+    color:white;
 }
 header div{
     margin-top:16px;
@@ -110,6 +120,11 @@ div.third .lang-card{
     margin-bottom:50px;
     border-radius:10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    cursor:pointer;
+}
+
+div.third .lang-card:hover{
+    transform:scale(0.95)
 }
 
 div.third .lang-card img{
@@ -129,6 +144,10 @@ div.third .lang-card-last{
     margin-bottom:50px;
     border-radius:10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    cursor:pointer
+}
+div.third .lang-card-last:hover{
+    transform:scale(0.95)
 }
 
 div.third .lang-card-last h3, div.third .lang-card-last h4{
@@ -158,6 +177,10 @@ div.third .card-head{
     color: #e310cb;
     font-weight:700;
 }
+.rw a:hover{
+    color:deeppink;
+}
+
 .rw-head{
     color:#c9c5d3;
     text-align:center;
@@ -174,8 +197,12 @@ div.third .card-head{
 
 div.forth img{
     border-radius:10px;
+    cursor:pointer;
 }
 
+div.forth img:hover{
+    transform:scale(1.01)
+}
 .prj-details, .prj-details-2, .prj-details-3{
     margin-top:12px;
     text-align:justify;
@@ -222,6 +249,12 @@ footer h2{
     padding-top: 24px;
     font-family: monospace;
 }
+
+footer a:hover{
+    color:white;
+    transform: scale(1.2);
+}
+
 /**********************
  START A PROJECT 
  **********************/
@@ -248,4 +281,9 @@ footer h2{
     font-size:1rem;
     color: wheat;
     background-color: inherit;
+}
+
+.start-project a:hover{
+    background-color: #7510F7;
+    color:white
 }
