@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-
 *{
     margin:0;
     padding:0;
@@ -23,14 +22,16 @@ img{
 
 header a{
     text-decoration: none;
-    color: deeppink;
-    font-family:cursive
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    font-family: Montserrat;
 }
 
 .header-btn{
     color: #7510F7;
     background-color: white;
-    border:1px #7510F7 solid;
+    border:2px #7510F7 solid;
     border-radius: 24px;
     padding:10px 12px;
     font-weight:800;
@@ -86,6 +87,7 @@ div.second p{
     font-size:18px;
     letter-spacing:2.5;
     line-height:2;
+    font-weight:600;
 }
 
 
@@ -107,7 +109,6 @@ div.third .lang-card{
     margin-bottom:50px;
     border-radius:10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    font-family:cursive;
 }
 
 div.third .lang-card img{
@@ -151,7 +152,11 @@ div.third .card-head{
 .rw{
     background-color: #0d314b;
 }
-
+.rw a{
+    text-decoration: none;
+    color: #e310cb;
+    font-weight:700;
+}
 .rw-head{
     color:#c9c5d3;
     text-align:center;
@@ -229,4 +234,14 @@ footer h2{
     font-size:18;
     line-height:1.6;
     letter-spacing:1;
+}
+
+.start-project a{
+    border:2px solid #7510F7;
+    border-radius: 24px;
+    padding:10px 12px;
+    text-decoration: none;
+    font-size:1rem;
+    color: wheat;
+    background-color: inherit;
 }
