@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+header{
+    display:flex;
+    justify-content:space-around;
+    margin:12 auto;
+}
+
+img{
+    height:auto;
+    max-width:100%
+}
+
+/********************
+    FIRST DIV IN MAIN
+*********************/
+main div.first{
+    text-align:center;
+    margin:24px auto;
+}
+
+main div.first h1{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(11, 3, 49);
+    padding:12px;
+}
+
+div.first div.avatar{
+    margin:20px auto;
+}
+div.first div.avatar img{
+    height:30%
+}
+
+div.first div.extra-image{
+    margin:auto 12px;
+}
+
+/********************
+    SECOND DIV IN MAIN
+*********************/
+div.second{
+    text-align:center;
+    background-color:rgb(24, 81, 238);
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    margin-top:-20px;
+}
+
+div.second h1{
+    padding:24px;
+}
+
+div.second p{
+    padding:0px 48px 20px;
+    font-size:18px;
+    letter-spacing:2.5;
+    line-height:2;
+}
+
+
+/********************
+    THIRD DIV IN MAIN
+*********************/
+div.third{
+    text-align:center;
+    margin-top:20px
+}
+div.third ul{
+    list-style-type:none;
+    padding-bottom:24px
+}
+
+div.third .lang-card{
+    margin:20px;
+    margin-bottom:50px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+div.third .lang-card img{
+    padding-top:20;
+}
+
+div.third .lang-card p{
+    padding:10px 50px;
+}
+
+div.third .lang-card h3, div.third .lang-card h4{
+    padding:8px;
+}
+
+div.third .lang-card-last{
+    margin:20px;
+    margin-bottom:50px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+div.third .lang-card-last h3, div.third .lang-card-last h4{
+    padding:8px;
+}
+
+div.third .lang-card-last img{
+    padding-top:20;
+}
+
+div.third .lang-card-last p{
+    padding:10px 50px;
+}
+
+div.third .card-head{
+    color:rgb(43, 43, 207);
+}
+
+/********************
+    FORTH DIV IN MAIN
+*********************/
+.rw{
+    background-color: #0d314b;
+}
+
+.rw-head{
+    color:#c9c5d3;
+    text-align:center;
+    margin:12px auto;
+    padding:12px;
+}
+
+.prj{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+}
+
+div.forth img{
+    border-radius:10px;
+}
