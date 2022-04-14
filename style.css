@@ -97,8 +97,9 @@ div.second p{
 div.third{
     text-align:center;
     margin-top:20px;
-    font-family:cursive;
+    font-family: Poppins;
 }
+
 div.third ul{
     list-style-type:none;
     padding-bottom:24px
@@ -162,6 +163,7 @@ div.third .card-head{
     text-align:center;
     margin:12px auto;
     padding:12px;
+    font-family: Poppins;
 }
 
 .prj{
@@ -182,6 +184,7 @@ div.forth img{
     font-size:18px;
     padding-bottom:10px;
     border-bottom:1px solid;
+    margin-bottom:50px;
 }
 
 div.forth p{
@@ -190,6 +193,7 @@ div.forth p{
 }
 .prj-details-3{
     padding-bottom:30px;
+    margin-bottom:0;
 }
 
 /********************
