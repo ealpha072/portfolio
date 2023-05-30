@@ -4,8 +4,11 @@ function App() {
 
   return (
     <>
-      <div>
-        <h2>Hello world!</h2>
+      <div className='first-container'>
+        <div className="left"></div>
+        <div className="right"></div>
+        <div className="image"></div>
+        
       </div>
     </>
   )
