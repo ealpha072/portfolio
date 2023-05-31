@@ -6,7 +6,13 @@ function App() {
     <>
       <div className='first-container'>
         <div className="left"></div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="header">
+            <header>
+              
+            </header>
+          </div>
+        </div>
         <div className="image"></div>
         
       </div>
