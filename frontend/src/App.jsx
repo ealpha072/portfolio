@@ -49,25 +49,91 @@ const App = () => {
                             <p>Cuurently working here as a product designer</p>
                         </div>
                     </div>
+                </div>
 
-                    <div className="philosophy">
-                        <div className="lleft">
-                            <h1>
+                <div className="philosophy">
+                    <div className="lleft">
+                        <h1>
                                 Philosophy & values
-                            </h1>
-                            <p>
+                        </h1>
+                        <p>
                                 I think everyone wants the same thing - 
                                 relationship with humanity, peace with the 
                                 metaphysical, and experience with the universe. 
                                 I try to grasp these things with my values: 
                                 authenticity, creativity, & hospitality.
+                        </p>
+                    </div>
+                    <div className="right">
+                            To contain image
+                    </div>
+                </div>
+
+                <div className="skillset">
+                    <div className="heading">
+                        <h2>Skillset</h2>
+                    </div>
+                    <div className="divone">
+                        <div className="divoneofone">
+                            <h3>Product Design</h3>
+                            <p>Working at Facebook has taught me 
+                                    a lot about how to understand users, 
+                                    solve problems and build great products.
                             </p>
                         </div>
-                        <div className="right">
-                            To contain image
+                        <div className="divtwoofone">
+                            <h3>Product Design</h3>
+                            <p>Working at Facebook has taught me 
+                                    a lot about how to understand users, 
+                                    solve problems and build great products.
+                            </p>
                         </div>
                     </div>
 
+                    <div>
+                        <div className="divoneofone">
+                            <h3>Product Design</h3>
+                            <p>Working at Facebook has taught me 
+                                    a lot about how to understand users, 
+                                    solve problems and build great products.
+                            </p>
+                        </div>
+                        <div className="divtwoofone">
+                            <h3>Product Design</h3>
+                            <p>Working at Facebook has taught me 
+                                    a lot about how to understand users, 
+                                    solve problems and build great products.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="business">
+                    <div>
+                        <h1>Lets talk Business</h1>
+                        <p> Now that you know me, lets know each other</p>
+                    </div>
+                    <div>
+                        <form action="">
+                            <div>
+                                <label htmlFor="">Name</label>
+                                <input type="text" />
+                            </div>
+                            <div>
+                                <label htmlFor="">Email Address</label>
+                                <input type="text" />
+                            </div>
+                            <div>
+                                <label htmlFor="">Message</label>
+                                <input type="text" />
+                            </div>
+                            <div>
+                                <button>
+                                        LETS GET STARTED
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </>
