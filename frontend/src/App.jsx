@@ -4,7 +4,7 @@ import headerStyles from "../src/styles/Header.module.css"
 const App = () => {
     return (
         <>
-            <div >
+            <div>
                 <nav className={headerStyles.mainHedaer }>
                     <div>
                         <div>Experience</div>
@@ -135,6 +135,23 @@ const App = () => {
                         </form>
                     </div>
                 </div>
+
+                <footer>
+                    <div>
+                        <h1>Alpha. E</h1>
+
+                        <div>
+                            <div> <i></i> </div>
+                            <div><i></i></div>
+                            <div><i></i></div>
+                        </div>
+
+                        <div className="copyright">
+                            <h5>No Copyright 2020 • Robin Williams. Webflow cloneable</h5>
+                            <a href="">Created by Chethan KVS</a>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </>
     );
