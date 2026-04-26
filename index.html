@@ -1,203 +1,424 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="app.css" media="screen and (min-width:800px) and (max-width:1600px)">
-        <link rel="stylesheet" href="style.css" media="screen and (min-width:320px) and (max-width:800px)">
-        <title>Alpha Portfolio</title>
-    </head>
-    <body>
-    	<div class="app-container">
-    		<header class="inline-header">
-    			<div class="header-div">
-    				<a href="http://" target="_blank" class="header-a">Email me</a>
-    			</div>
-    			<div class="header-div">
-    				<a href="" target="" rel="" class="header-btn">Say Hello</a>
-    			</div>
-    		</header>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Alpha Emmanuel Ochieng — Data & Research Analyst</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@400&display=swap"
+		rel="stylesheet" 
+	/>
+	<link rel="stylesheet" href="app.css">
+</head>
 
-    		<main class="mt">
-    			<div class="d-block first">
-    				<h1 class="tp-h">Full stack Web developer, Data Analyst, Machine Learining Enthusiast</h1>
-    				<p>I write beautiful software in a beautiful way, beautifuly</p>
-    				<div class="avatar abt-img">
-    					<img src="images/avatar.svg" alt="Avatar">
-    				</div>
-    				<div class="extra-image">
-    					<img src="images/hero.svg" alt="">
-    				</div>
-    			</div>
+<body>
 
-    			<div class="bg-about d-block second">
-    				<h1 class="header">Hi there friend, nice to meet you...</h1>
-    				<div class="">
-    					<p class="about-p">
-    						My name is Alpha Emmanuel, a self-taught programmer. I started programming in
-    						2019 with my first language being Javascript. From that, i learnt HTML and CSS an
-    						became a front-end web developer. Through the years, i have learnt PHP
-    						fullstack developement technologies PHP, SQL and XAMMP...
+	<nav>
+		<a href="#" class="nav-logo">Alpha E. Ochieng</a>
+		<ul class="nav-links">
+			<li><a href="#about">About</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#code">GitHub</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
 
-    					</p>
-    				</div>
-    			</div>
+	<!-- HERO -->
+	<section class="hero">
+		<div class="hero-text">
+			<div class="hero-eyebrow">Data &amp; Research Analyst · Nairobi, Kenya</div>
+			<h1>Turning data into <em>decisions</em> that move capital</h1>
+			<p class="hero-desc">
+				I help global development partners — USAID, FCDO, World Bank, GIZ — translate complex datasets into
+				investment insights and policy that matter across East Africa.
+			</p>
+			<div class="hero-ctas">
+				<a href="#projects" class="btn-primary">View My Work</a>
+				<a href="mailto:ealpha072@gmail.com" class="btn-secondary">Get in Touch</a>
+			</div>
+		</div>
 
-    			<div class="languages inline mt lang third">
+		<div class="hero-stats">
+			<div class="stat-card">
+				<span class="stat-num">3+</span>
+				<div class="stat-label">
+					<strong>Years of experience</strong>
+					delivering quantitative insights for development finance
+				</div>
+			</div>
+			<div class="stat-card">
+				<span class="stat-num">10+</span>
+				<div class="stat-label">
+					<strong>Client engagements</strong>
+					across health, agriculture, trade &amp; FMCG sectors
+				</div>
+			</div>
+			<div class="stat-card">
+				<span class="stat-num">4</span>
+				<div class="stat-label">
+					<strong>Global partners</strong>
+					USAID · FCDO · World Bank · GIZ
+				</div>
+			</div>
+		</div>
+	</section>
 
-    				<div class="web-developer d-block lang-card">
-    					<div class="dev-svg mt">
-    						<img src="images/frontend.svg" alt="Front end">
-    					</div>
-    					<h3 class="card-title">Web developer - FrontEnd</h3>
-    					<p class="lang-p">I like to code the front end with libraries and templates</p>
-    					<h3 class='card-head'>Languages i speak:</h3>
-    					<p class="lang-p">
-    						Javascript, HTML, CSS
-    					</p>
-    					<h4 class="card-head">Tools i use:</h4>
-    					<ul class="card-list">
-    						<li>React</li>
-    						<li>Bootstrap</li>
-    						<li>Material UI</li>
-    						<li>FontAwesome</li>
-    					</ul>
-    				</div>
+	<!-- ABOUT -->
+	<section id="about">
+		<div class="section-header">
+			<div class="section-tag">Who I am</div>
+			<h2>Economist. Analyst. <em>Builder.</em></h2>
+		</div>
+		<div class="about-grid">
+			<div class="about-content">
+				<p>
+					I'm a Data and Research Analyst at Maitri Capital, where I sit at the intersection of quantitative
+					research, investment analysis, and policy advisory. My work spans large-scale dataset analysis,
+					financial modelling, and translating complex evidence into clear narratives for investors, donors,
+					and government stakeholders.
+				</p>
+				<p>
+					I hold a First Class Honours degree in Economics from Kenyatta University and am currently
+					completing a Masters in Financial Engineering at World Quant University. I also build software —
+					from student management systems to lightweight text editors — which gives me a systems-thinking edge
+					in analytical work.
+				</p>
+				<p>
+					My north star: evidence should move money and shape policy. Not just sit in a report.
+				</p>
+			</div>
+			<div class="about-skills">
+				<div class="skill-group">
+					<div class="skill-group-label">Data &amp; Analytics</div>
+					<div class="skill-tags">
+						<span class="skill-tag accent">Python (Pandas, NumPy)</span>
+						<span class="skill-tag accent">SQL</span>
+						<span class="skill-tag">Excel (Advanced)</span>
+						<span class="skill-tag">Tableau</span>
+						<span class="skill-tag">EViews</span>
+						<span class="skill-tag">Matplotlib</span>
+					</div>
+				</div>
+				<div class="skill-group">
+					<div class="skill-group-label">Research &amp; Finance</div>
+					<div class="skill-tags">
+						<span class="skill-tag">Financial Modelling</span>
+						<span class="skill-tag">DCF &amp; Valuation</span>
+						<span class="skill-tag">Market Sizing</span>
+						<span class="skill-tag">Due Diligence</span>
+						<span class="skill-tag">Survey Design</span>
+						<span class="skill-tag">Policy Research</span>
+					</div>
+				</div>
+				<div class="skill-group">
+					<div class="skill-group-label">Engineering &amp; Tools</div>
+					<div class="skill-tags">
+						<span class="skill-tag">React</span>
+						<span class="skill-tag">JavaScript</span>
+						<span class="skill-tag">MongoDB</span>
+						<span class="skill-tag">Git</span>
+						<span class="skill-tag">QuickBooks</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    				<div class="data-analyst d-block lang-card">
-    					<div class="dev-svg mt">
-    						<img src="images/mentor.svg" alt="Data Analysis">
-    					</div>
-    					<h3 class="card-title">Data Analyst</h3>
-    					<p class="lang-p">I love data, digging into
-    						data to get meaning from it
-    					</p>
-    					<h3 class='card-head'>Technologies i use:</h3>
-    					<p class="lang-p">
-    						Python, SQL, Excel
-    					</p>
-    					<h4 class="card-head">Libraries i use:</h4>
-    					<ul class="card-list">
-    						<li>Pandas</li>
-    						<li>Numpy</li>
-    						<li>Scikit Learn</li>
-    					</ul>
-    				</div>
+	<!-- EXPERIENCE -->
+	<section id="experience" class="exp-section">
+		<div class="section-header">
+			<div class="section-tag">Where I've worked</div>
+			<h2>Experience &amp; <em>Impact</em></h2>
+			<p class="section-intro">Building evidence-driven advisory across development finance, investment, and
+				health research.</p>
+		</div>
+		<div class="timeline">
+			<div class="timeline-item">
+				<div class="timeline-date">May 2022 — Present</div>
+				<div class="timeline-role">Research, Data &amp; Investment Analyst</div>
+				<div class="timeline-org">Maitri Capital</div>
+				<div class="timeline-body">
+					Delivering quantitative insights and investment support for global development partners across East
+					Africa's health, agriculture, trade, and FMCG sectors.
+					<ul class="timeline-bullets">
+						<li>Analysed large-scale datasets using Python and SQL for 10+ client engagements, generating
+							investment-relevant insights for USAID, FCDO, World Bank, and GIZ.</li>
+						<li>Built integrated 3-statement financial models, DCF analyses, and scenario models for capital
+							raising across healthcare, manufacturing, and agriculture.</li>
+						<li>Led preparation of investment memoranda, teasers, and pitch decks for SMEs and project
+							sponsors.</li>
+						<li>Designed and implemented quantitative market sizing frameworks and competitive analysis
+							models informing public and private capital deployment.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-date">Jan 2022 — Apr 2022</div>
+				<div class="timeline-role">Finance &amp; Accounting Intern</div>
+				<div class="timeline-org">Kisumu County Referral Hospital</div>
+				<div class="timeline-body">
+					Supported billing, NHIF insurance claims processing, accounts bookkeeping, and patient financial
+					clearance within a high-volume public health facility.
+				</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-date">2017 — 2021</div>
+				<div class="timeline-role">Bachelor of Economics, First Class Honours</div>
+				<div class="timeline-org">Kenyatta University, Nairobi</div>
+			</div>
+		</div>
+	</section>
 
-    				<div class="data-analyst d-block lang-card-last">
-    					<div class="dev-svg mt">
-    						<img src="images/mentor.svg" alt="Data Analysis">
-    					</div>
-    					<h3 class="card-title">Web developer - Backend</h3>
-    					<p class="lang-p">The backend is my residence, this is where i spend
-    						most of my time
-    					</p>
-    					<h3 class='card-head'>Technologies i use:</h3>
-    					<p class="lang-p">
-    						Javascript, PHP, SQL
-    					</p>
-    					<h4 class="card-head">Tools i use:</h4>
-    					<ul class="card-list">
-    						<li>MongoDB</li>
-    						<li>phpMyAdmin</li>
-    						<li>XAMMP</li>
-    						<li>Express</li>
-    						<li>Nodejs</li>
-    						<li>innoScript</li>
-    						<li>phpDesktop</li>
-    					</ul>
-    				</div>
+	<!-- PROJECTS -->
+	<section id="projects">
+		<div class="section-header">
+			<div class="section-tag">Selected work</div>
+			<h2>Research &amp; <em>Advisory Projects</em></h2>
+			<p class="section-intro">High-impact research engagements that shaped investment decisions and policy
+				priorities across East Africa.</p>
+		</div>
+		<div class="projects-grid">
 
-    			</div>
+			<div class="project-card">
+				<div class="project-client">FCDO · 2024</div>
+				<div class="project-title">Unlocking Trade Potential: Priority Sectors for Kenya</div>
+				<div class="project-desc">Assessed 13 tradeable sectors using import, export, and production data to
+					identify manufacturing and import substitution opportunities. Findings directly shaped FCDO's
+					investment and industrial policy priorities.</div>
+				<div class="project-tags">
+					<span class="project-tag">Market Sizing</span>
+					<span class="project-tag">Trade Analysis</span>
+					<span class="project-tag">Investment Cases</span>
+					<span class="project-tag">Policy</span>
+				</div>
+			</div>
 
-    			<div class="rw d-block mt forth">
-    				<h1 class="rw-head"><strong>My Recent Projects</strong></h1>
-    				<div class="projects">
+			<div class="project-card">
+				<div class="project-client">GIZ · 2024</div>
+				<div class="project-title">Unlocking Capital for Female Investment Vehicle Managers in Africa</div>
+				<div class="project-desc">Designed and analysed a pan-African survey of 51 investment vehicle managers,
+					assessing fundraising constraints, ticket sizes, and LP requirements. Outputs guided GIZ's capital
+					allocation strategies supporting women-led vehicles.</div>
+				<div class="project-tags">
+					<span class="project-tag">Survey Design</span>
+					<span class="project-tag">Pan-African</span>
+					<span class="project-tag">Gender Finance</span>
+				</div>
+			</div>
 
-    					<div class="prj prj-mt">
-    						<div class="prj-img-holder">
-    							<img src="images/projects/school_sytem.png" alt="" class="prj-img">
-    						</div>
-    						<div class="prj-details d-block">
-    							<div>
-    								<h4 class="prj-h">School Management System</h4>
-    								<p class="prj-p">
-    									This School management System project was developed using the PHP
-    									fullstack tools among them; PHP, DB Browser(SQLite).
-    									This is a desktop application compiled used phpDesktop and scripts
-    									generated using the innoSetup scripts. Find it on
-    									<a href="http://" target="_blank" rel="noopener noreferrer" class="prj-a"> Github.</a>
-    								</p>
-    							</div>
-    						</div>
-    					</div>
+			<div class="project-card">
+				<div class="project-client">USAID LISA</div>
+				<div class="project-title">Health Sector Landscape Assessment — Private Sector Engagement</div>
+				<div class="project-desc">Led data analysis for a national health landscape assessment identifying
+					pipeline-ready private sector partners advancing market-based healthcare in Kenya. Built scoring
+					frameworks assessing commercial readiness and impact potential.</div>
+				<div class="project-tags">
+					<span class="project-tag">Health Systems</span>
+					<span class="project-tag">Scoring Frameworks</span>
+					<span class="project-tag">Python</span>
+				</div>
+			</div>
 
-    					<div class="prj prj-2 prj-mt">
-    						<div class="prj-img-holder">
-    							<img src="images/projects/chat.png" alt="" class="prj-img-2">
-    						</div>
-    						<div class="prj-details-2 d-block">
-    							<div>
-    								<h4 class="prj-h-2">Chat Application</h4>
-    								<p class="prj-p">
-    									This is a Chat Application coded using the php fullstack
-    									technologies. Users can login, register, send and receive
-    									messages in realtime, see who is online. Thinking of adding more
-    									functionalities...
-    									Check out the project <a href="" target="_blank" class="prj-a">here.</a>
-    								</p>
-    								<h5 class="prj-h-2">Technologies used: </h5>
-    								<p class="prj-p"><small>PHP, Bootstrap, PHPMyadmin, XAMMP</small></p>
-    							</div>
-    						</div>
-    					</div>
+			<div class="project-card">
+				<div class="project-client">USAID</div>
+				<div class="project-title">Health Manufacturing Baseline Assessment</div>
+				<div class="project-desc">Designed and implemented baseline surveys on health manufacturing in Kenya;
+					cleaned and analysed facility-level data. Translated findings into high-impact infographics and
+					evidence briefs for non-technical audiences.</div>
+				<div class="project-tags">
+					<span class="project-tag">Survey Design</span>
+					<span class="project-tag">Data Cleaning</span>
+					<span class="project-tag">Infographics</span>
+				</div>
+			</div>
 
-    					<div class="prj prj-mt">
-    						<div class="prj-img-holder">
-    							<img src="images/projects/data.png" alt="" class="prj-img">
-    						</div>
-    						<div class="prj-details-3 d-block">
-    							<div>
-    								<h4 class="prj-h3">Cognitive Classes</h4>
-    								<h5 class="prj-h3">Automobilde Data Set</h5>
-    								<p class="prj-p">
-    									This is an Analysis of the Automobile Dataset from the Cognitive
-    									classes. In this, i analyse the data using techniques like wrangling
-    									binning, standardization and normalization.
-    									Check it out <a href="http://" target="_blank" class="prj-a">here.</a>
-    								</p>
-    								<h5 class="prj-h3">Technologies used:</h5>
-    								<p class="prj-h3"><small>Jupyter Notebooks, Pandas, Numpy, Matplotlib</small></p>
-    							</div>
-    						</div>
-    					</div>
+			<div class="project-card">
+				<div class="project-client">Inteleos</div>
+				<div class="project-title">Maternal &amp; Neonatal Healthcare Studies</div>
+				<div class="project-desc">Led survey design, field data cleaning, and statistical analysis for studies
+					on ultrasound adoption, service availability, and healthcare delivery gaps. Insights informed
+					targeted health system interventions.</div>
+				<div class="project-tags">
+					<span class="project-tag">Statistical Analysis</span>
+					<span class="project-tag">Healthcare</span>
+					<span class="project-tag">Field Research</span>
+				</div>
+			</div>
 
-    				</div>
-    			</div>
-    		</main>
+			<div class="project-card">
+				<div class="project-client">Transaction Advisory</div>
+				<div class="project-title">Commercial Due Diligence — Education Sector</div>
+				<div class="project-desc">Led commercial due diligence for an education sector transaction — assessing
+					market demand, competitive landscape, pricing dynamics, and key risks. Report used to inform
+					transaction structuring and investment decision-making.</div>
+				<div class="project-tags">
+					<span class="project-tag">Due Diligence</span>
+					<span class="project-tag">Education</span>
+					<span class="project-tag">M&amp;A</span>
+				</div>
+			</div>
 
-    		<footer>
-    			<div class="start-project d-block">
-    				<p class="start-project-p">
-    					Want to work on a project together, or want help with a continuing
-    					project? Or maybe you just want to get coffee, or talk about
-    					web developement, data analysis and anything tech related. Hit me up.
-    				</p>
-    				<a href="http://" target="" class="start-project-a">Let's do this</a>
-    			</div>
-    			<div class="socials">
-    				<h2>My social links: Reach me here</h2>
-    				<ul>
-    					<li><a href="https://github.com/ealpha072" target="_blank" class="fa fa-github"></a></li>
-    					<li><a href="" target="_blank" class="fa fa-instagram"></a></li>
-    					<li><a href="" target="_blank" class="fa fa-envelope"></a></li>
-    					<li><a href="" target="_blank" class="fa fa-twitter"></a></li>
-    				</ul>
-    			</div>
-    		</footer>
-    	</div>
-    </body>
+		</div>
+	</section>
+
+	<!-- GITHUB -->
+	<section id="code" class="gh-section">
+		<div class="section-header">
+			<div class="section-tag">Code &amp; Building</div>
+			<h2 style="color:#f5f2ec;">Open Source <em style="color:#9fbf8f;">Work</em></h2>
+			<p class="section-intro">A selection of projects from my GitHub — spanning systems, tools, and data science
+				coursework.</p>
+		</div>
+		<div class="gh-grid">
+			<a href="https://github.com/ealpha072/World-Quant-University" target="_blank" class="gh-card">
+				<div class="gh-card-icon">📊</div>
+				<div class="gh-card-name">World-Quant-University</div>
+				<div class="gh-card-desc">Assignments from the WQU Python for Data Science course — statistical
+					computing, data wrangling, and applied ML.</div>
+				<div class="gh-card-lang">Python · Data Science</div>
+			</a>
+			<a href="https://github.com/ealpha072/Student-Management-System" target="_blank" class="gh-card">
+				<div class="gh-card-icon">🗂️</div>
+				<div class="gh-card-name">Student Management System</div>
+				<div class="gh-card-desc">A full-stack student management system for managing students, courses, and
+					departments with SQL backend.</div>
+				<div class="gh-card-lang">SQL · PHP · Web</div>
+			</a>
+			<a href="https://github.com/ealpha072/AlphaNote" target="_blank" class="gh-card">
+				<div class="gh-card-icon">📝</div>
+				<div class="gh-card-name">AlphaNote</div>
+				<div class="gh-card-desc">A lightweight, efficient text editor designed for simplicity — AlphaEdit built
+					from scratch.</div>
+				<div class="gh-card-lang">Desktop App</div>
+			</a>
+			<a href="https://github.com/ealpha072/school-management-system" target="_blank" class="gh-card">
+				<div class="gh-card-icon">🏫</div>
+				<div class="gh-card-name">School Management System</div>
+				<div class="gh-card-desc">End-to-end school administration system covering enrollment, departments, and
+					academic records.</div>
+				<div class="gh-card-lang">Web · Database</div>
+			</a>
+			<a href="https://github.com/ealpha072/Bootstrap-Sidebar" target="_blank" class="gh-card">
+				<div class="gh-card-icon">🧩</div>
+				<div class="gh-card-name">Bootstrap Sidebar</div>
+				<div class="gh-card-desc">A partially collapsing static Bootstrap sidebar component — clean, responsive,
+					and reusable.</div>
+				<div class="gh-card-lang">HTML · CSS · Bootstrap</div>
+			</a>
+			<a href="https://github.com/ealpha072/termux_repo" target="_blank" class="gh-card">
+				<div class="gh-card-icon">⌨️</div>
+				<div class="gh-card-name">Termux Repo</div>
+				<div class="gh-card-desc">Configuration and scripts for Termux — Android terminal environment setup and
+					automation tools.</div>
+				<div class="gh-card-lang">Shell · Bash</div>
+			</a>
+		</div>
+		<div class="gh-cta">
+			<a href="https://github.com/ealpha072?tab=repositories" target="_blank" class="btn-outline-light">View all
+				repositories →</a>
+		</div>
+	</section>
+
+	<!-- CERTIFICATIONS -->
+	<section id="certifications">
+		<div class="section-header">
+			<div class="section-tag">Credentials</div>
+			<h2>Education &amp; <em>Certifications</em></h2>
+		</div>
+		<div class="certs-grid">
+			<div class="cert-card">
+				<div class="cert-name">Masters in Financial Engineering</div>
+				<div class="cert-org">World Quant University</div>
+				<div class="cert-year">ONGOING</div>
+			</div>
+			<div class="cert-card">
+				<div class="cert-name">Applied Data Science Lab</div>
+				<div class="cert-org">World Quant University</div>
+				<div class="cert-year">2025</div>
+			</div>
+			<div class="cert-card">
+				<div class="cert-name">Data Science Essentials with Python</div>
+				<div class="cert-org">Cisco Networking Academy</div>
+				<div class="cert-year">2025</div>
+			</div>
+			<div class="cert-card">
+				<div class="cert-name">Applied Data Science I: Scientific Computing &amp; Python</div>
+				<div class="cert-org">World Quant University</div>
+				<div class="cert-year">2021</div>
+			</div>
+			<div class="cert-card">
+				<div class="cert-name">Bachelor of Economics — First Class Honours</div>
+				<div class="cert-org">Kenyatta University, Nairobi</div>
+				<div class="cert-year">2017 — 2021</div>
+			</div>
+			<div class="cert-card">
+				<div class="cert-name">Certified Public Accountant (CPA) II</div>
+				<div class="cert-org">KASNEB</div>
+				<div class="cert-year">2021</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CONTACT -->
+	<section id="contact" class="contact-section">
+		<div class="section-header">
+			<div class="section-tag">Let's work together</div>
+			<h2>Get in <em style="color:#d4ede3;">Touch</em></h2>
+			<p class="section-intro">Open to research engagements, investment advisory, and data consulting across East
+				Africa.</p>
+		</div>
+		<div class="contact-grid">
+			<div class="contact-info">
+				<a href="mailto:ealpha072@gmail.com" class="contact-item">
+					<div class="contact-icon">✉</div>
+					<div>
+						<div class="contact-label">Email</div>
+						<div class="contact-value">ealpha072@gmail.com</div>
+					</div>
+				</a>
+				<a href="tel:+254798975799" class="contact-item">
+					<div class="contact-icon">☎</div>
+					<div>
+						<div class="contact-label">Phone</div>
+						<div class="contact-value">+254 798 975 799</div>
+					</div>
+				</a>
+				<a href="https://github.com/ealpha072" target="_blank" class="contact-item">
+					<div class="contact-icon">⌥</div>
+					<div>
+						<div class="contact-label">GitHub</div>
+						<div class="contact-value">github.com/ealpha072</div>
+					</div>
+				</a>
+				<div class="contact-item" style="pointer-events:none;">
+					<div class="contact-icon">📍</div>
+					<div>
+						<div class="contact-label">Location</div>
+						<div class="contact-value">Nairobi, Kenya</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact-quote">
+				<blockquote>"Evidence should move money and shape policy — not just sit in a report."</blockquote>
+				<p>If you're working on a research engagement, investment transaction, or data challenge in East Africa,
+					I'd love to hear about it. I'm comfortable with both independent engagements and collaborative
+					projects.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<span>© 2026 Alpha Emmanuel Ochieng</span>
+		<span>
+			<a href="mailto:ealpha072@gmail.com">ealpha072@gmail.com</a>
+			&nbsp;·&nbsp;
+			<a href="https://github.com/ealpha072" target="_blank">GitHub</a>
+		</span>
+	</footer>
+
+</body>
+
 </html>
