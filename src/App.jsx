@@ -212,7 +212,7 @@ function Nav({ isDark, toggleTheme }) {
 
   return (
     <nav id="mainNav">
-      <a className="nav-logo" href="#hero">AE. Ochieng</a>
+      <a className="nav-logo" href="#hero">Alpha Emmanuel</a>
 
       <ul className={`nav-links${menuOpen ? " open" : ""}`} id="navLinks">
         {navLinks.map((id) => (
@@ -291,9 +291,9 @@ function Hero() {
 
       <div className="hero-stats">
         {[
-          { num: "3+", label: "Years Experience" },
-          { num: "10+", label: "Client Engagements" },
-          { num: "4", label: "Global Partners" },
+          { num: "4+", label: "Years Experience" },
+          { num: "50+", label: "Client Engagements" },
+          { num: "10+", label: "Global Partners" },
         ].map((s) => (
           <div className="hero-stat" key={s.label}>
             <div className="hero-stat-num">{s.num}</div>
@@ -482,9 +482,8 @@ function Contact() {
           <div className="contact-links">
             {[
               { icon: "✉️", label: "Email", value: "ealpha072@gmail.com", href: "mailto:ealpha072@gmail.com", delay: "reveal-delay-2" },
-              { icon: "📞", label: "Phone", value: "+254 798 975 799", href: "tel:+254798975799", delay: "reveal-delay-2" },
               { icon: "🐙", label: "GitHub", value: "github.com/ealpha072", href: "https://github.com/ealpha072", delay: "reveal-delay-3" },
-              { icon: "🔗", label: "LinkedIn", value: "Alpha Emmanuel Ochieng", href: "#", delay: "reveal-delay-3" },
+              { icon: "🔗", label: "LinkedIn", value: "Alpha Emmanuel Ochieng", href: "https://ke.linkedin.com/in/alpha-emmanuel-463b7122a", delay: "reveal-delay-3" },
             ].map((link) => (
               <a key={link.label} href={link.href} target={link.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" className={`contact-link reveal ${link.delay}`}>
                 <span className="contact-link-icon">{link.icon}</span>
